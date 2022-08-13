@@ -1,5 +1,3 @@
 export default function App() {
-  return (
-    <div>Autenticação React com Rails</div>
-  );
+  return <div>Autenticação React com Rails</div>;
 }
