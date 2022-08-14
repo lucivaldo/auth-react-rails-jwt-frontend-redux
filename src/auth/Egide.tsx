@@ -48,9 +48,5 @@ export default function Egide(): JSX.Element {
     }
   }, [dispatch, location.state, navigate, searchParams, status, token]);
 
-  if (status === 'failed') {
-    return <div>Erro ao obter o token do usuário</div>;
-  }
-
   return <div>Autenticando...</div>;
 }
